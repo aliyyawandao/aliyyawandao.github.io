@@ -1,0 +1,85 @@
+body{
+    background-image: url(wetsnow.png); 
+}
+
+#judul {
+    font-family: "Playwrite NZ", cursive;
+    position: relative;
+    text-align: left; color:grey;
+    padding: 5px;
+}
+
+#navigasi {
+    position: absolute;
+    text-align: center;
+    background-color:#eec0ee;
+}
+
+#navigasi a:link, #navigasi a:visited {
+   color:#ffe6ff;
+   text-decoration: wavy;
+   padding: 4px 10px 4px 10px;
+}
+
+#navigasi a:hover {
+    background-color: rgb(167, 7, 167);
+}
+
+#navigasi ul {
+    margin:0;
+    padding: 3px;
+    list-style-type: none;
+}
+
+#content{
+    padding:50px;
+    margin-top: -20px;
+}
+
+.kiri{
+    width: 400px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#navigasi li {
+    display: inline;
+}
+
+#seksi_artikel {
+    position: relative
+}
+
+#artikel{
+    width: 900px;
+}
+
+.isi_artikel {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: left;
+    left: 0px;
+    width: 800px;
+    height: 220px;
+    padding: 20px;
+}
+
+.box-pendidikan{
+    text-align: left;
+    color:grey;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 200px;
+    height: 280px;
+    background-color: wheat;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 2px;
+    margin: 10px 20px 20px 55px;
+    border-radius: 4px;
+    float: left;
+}
