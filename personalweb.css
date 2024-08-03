@@ -1,28 +1,28 @@
 body{
     background-image: url(wetsnow.png); 
+    width: 800px;
 }
 
 #judul {
     font-family: "Playwrite NZ", cursive;
     position: relative;
-    text-align: left; color:grey;
+    text-align: left; color:rgb(83, 82, 82);
     padding: 5px;
-}
+    }
 
 #navigasi {
-    position: absolute;
-    text-align: center;
-    background-color:#eec0ee;
+    text-align: left;
 }
 
 #navigasi a:link, #navigasi a:visited {
-   color:#ffe6ff;
+   color:#eea4e4;
+   font-size: 25px;
    text-decoration: wavy;
    padding: 4px 10px 4px 10px;
 }
 
-#navigasi a:hover {
-    background-color: rgb(167, 7, 167);
+#navigasi a:hover{
+    background-color: #dda1dd;
 }
 
 #navigasi ul {
@@ -31,55 +31,174 @@ body{
     list-style-type: none;
 }
 
-#content{
-    padding:50px;
-    margin-top: -20px;
-}
-
-.kiri{
-    width: 400px;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
-}
 
 #navigasi li {
     display: inline;
 }
 
 #seksi_artikel {
-    position: relative
+    position: relative;
+  
 }
 
-#artikel{
-    width: 900px;
-}
+
 
 .isi_artikel {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    color: rgba(141, 132, 47, 0.651);
     font-style: normal;
     position: left;
     left: 0px;
-    width: 800px;
-    height: 220px;
-    padding: 20px;
+    
+    
+    
 }
 
-.box-pendidikan{
+.isi_artikel img{
+    border-radius: 20px;
+    height: 300px;
+    border: 6px solid whitesmoke;
+    margin-top: 10px;
+}
+
+.isi_artikel h1{
+    margin-top: 50px;
     text-align: left;
-    color:grey;
+}
+
+.isi_artikel h5 {
+    color: rgb(245, 223, 24);
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.isi_artikel p {
+    color: rgb(90, 85, 85);
+}
+.isi_artikel button{
+    margin-top: 50px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.isi_artikel button:hover{
+    background-color: white;
+}
+
+.box-pendidikan, .box-hobi {
+    text-align: left;
+    color:rgb(109, 107, 107);
     align-content: center;
+}
+
+.box-pendidikan img {
+    width: 135px; 
+    height: 135px;
+    border: none;
+    border-radius: 0%;
 }
 
 .box-kiri, .box-tengah, .box-kanan {
     width: 200px;
-    height: 280px;
+    height: 300px;
     background-color: wheat;
     text-align: center;
-    padding-top: 15px;
-    padding-right: 2px;
-    margin: 10px 20px 20px 55px;
-    border-radius: 4px;
+    padding: 30px 15px;
+    margin: 10px 15px 10px 10px;
+    border-radius: 10px;
     float: left;
 }
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: rgb(230, 199, 142);
+    color: grey;
+}
+
+
+.personality h2{
+    color: grey;
+}
+
+.personality h4 {
+    color: rgb(143, 133, 40);
+}
+
+.pbox-kiri, .pbox-tengah, .pbox-kanan,
+.pbox-kiribwh, .pbox-tengahbwh, .pbox-kananbwh {
+    width: 220px;
+    height:150px;
+    background-color: rgb(241, 234, 163);
+    text-align: left;
+    padding: 5px 10px;
+    margin: 5px 15px 10px 10px;
+    float: left;
+}
+
+.hobi-kanan img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.footer {
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    padding: 20px 50px;
+    position: bottom;
+    
+}
+
+.social_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social_icon li {
+    list-style: none;
+
+}
+
+.social_icon li a {
+    font-size: 1.7em;
+    color: rgb(98, 98, 187);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.social_icon li a:hover {
+    transform: translateY(-10px);
+}
+
+.footer h5 {
+    font-size: 20px;
+    color: rgb(218, 89, 110);
+    text-align: center;
+}
+.footer p {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
